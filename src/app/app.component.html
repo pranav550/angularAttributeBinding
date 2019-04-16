@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>Welcome to {{ title }}!</h1>
+  <table [attr.border]="bdr" width="300" height="300">
+    <tr>
+      <td [attr.colspan]="cols">Student Details</td>
+    </tr>
+    <tr>
+      <td>Id</td>
+      <td>Name</td>
+      <td>Class</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Pranav</td>
+      <td>10Th</td>
+    </tr>
+  </table>
+
+  <router-outlet></router-outlet>
+</div>
